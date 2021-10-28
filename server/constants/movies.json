@@ -1,0 +1,169 @@
+[
+    {
+        "id":"1",
+        "title": "Anand",
+        "year": "1971",
+        "genres": [
+            "Drama"
+        ]
+    },
+    {
+       "id":"2",
+        "title": "Dangal",
+        "year": "2016",
+        "genres": [
+            "Action",
+            "Biography",
+            "Drama"
+        ]
+       
+    },
+    {
+       "id":"13",
+        "title": "Drishyam",
+        "year": "2013",
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ]
+    },
+    {
+      "id":"4",
+        "title": "Nayakan",
+        "year": "1987",
+        "genres": [
+            "Crime",
+            "Drama"
+        ]
+    },
+    {
+      "id":"5",
+        "title": "Anbe Sivam",
+        "year": "2003",
+        "genres": [
+            "Adventure",
+            "Comedy",
+            "Drama"
+        ]
+    },
+    {
+      "id":"5",
+        "title": "Gol Maal",
+        "year": "1979",
+        "genres": [
+            "Comedy",
+            "Romance"
+        ]
+    },
+    {
+      "id":"6",
+        "title": "Black Friday",
+        "year": "2004",
+        "genres": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ]
+    },
+    {
+      "id":"7",
+        "title": "Taare Zameen Par",
+        "year": "2007",
+        "genres": [
+            "Drama",
+            "Family",
+            "Music"
+        ]
+    },
+    {
+      "id":"8",
+        "title": "Jaane Bhi Do Yaaro",
+        "year": "1983",
+        "genres": [
+            "Comedy",
+            "Drama"
+        ]
+    },
+    {
+      "id":"9",
+        "title": "3 Idiots",
+        "year": "2009",
+        "genres": [
+            "Comedy",
+            "Drama"
+        ]
+    },
+    {
+      "id":"10",
+        "title": "Chupke Chupke",
+        "year": "1975",
+        "genres": [
+            "Comedy",
+            "Drama",
+            "Romance"
+        ]
+    },
+    {
+      "id":"15",
+        "title": "Pather Panchali",
+        "year": "1955",
+        "genres": [
+            "Drama"
+        ]
+    },
+    {
+      "id":"35",
+        "title": "A Wednesday",
+        "year": "2008",
+        "genres": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ]
+    },
+    {
+      "id":"25",
+        "title": "Andaz Apna Apna",
+        "year": "1994",
+        "genres": [
+            "Comedy",
+            "Family",
+            "Romance"
+        ]
+    },
+    {
+      "id":"17",
+        "title": "Hera Pheri",
+        "year": "2000",
+        "genres": [
+            "Comedy",
+            "Crime",
+            "Thriller"
+        ]
+    },
+    {
+        "id": "88",
+        "title": "Les gardiennes",
+        "year": "2017",
+        "genres": [
+            "Drama"
+        ]
+    },
+    {
+        "id": "89",
+        "title": "Life of the Party",
+        "year": "2018",
+        "genres": [
+            "Comedy"
+        ]
+    },
+    {
+        "id": "90",
+        "title": "Breaking In",
+        "year": "2018",
+        "genres": [
+            "Thriller"
+        ]
+    }
+]
