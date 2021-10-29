@@ -3,7 +3,13 @@
         - Add a movie into database
         - Fetch a movie from database
         - Search for movie from database
-    
+
+### Tech Stack Used
+    - React
+    - Postgres
+    - Express
+    - Node
+  
 ## Screen Shot
 
 ### Homepage
