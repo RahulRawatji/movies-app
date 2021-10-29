@@ -27,10 +27,10 @@ function MovieDetails() {
     }
 
     return (
-
+        <>
         <Card className="movie-detail-card">
             {error && <Alert variant='danger'>{error}</Alert>}
-                <>
+
                     <Card.Header><h3>{details.title}</h3></Card.Header>
                     <Card.Body>
                         <Card.Img variant="top" src={details.poster} />
@@ -39,9 +39,8 @@ function MovieDetails() {
                         <p>Year Of Release: {details.year_of_release}</p>
                        
                     </Card.Body>
-                </>
-
         </Card>
+        </>
     )
 }
 

@@ -1,10 +1,15 @@
 const db = require("../models");
 const  MoviesModel  = require("../models/Movies");
 
+const Sequelize = require('sequelize');
+const { QueryTypes } = require('sequelize');
+
 const { Movies } = db;
+const Op = Sequelize.Op;
 
 const getAllMovies = async(req,res) =>{
     const { searchText } = req.query;
+    console.log(searchText)
     try{
         const conditions = searchText ? {
             where: {
@@ -42,6 +47,22 @@ const getMovie = async(req,res) =>{
     }
 }
 
+const getTopRated = async (req,res) =>{
+    try{
+        const topRated = await sequelize.query('SELECT MAX(rating) from movies',
+        {
+          replacements: [3],
+          type: QueryTypes.SELECT
+        });
+        res.json(topRated)
+    }
+    catch(e){
+        res.status(500).json({
+            message:e.message
+        })
+    }
+}
+
 const addMovie = async (req,res) =>{
     const { title , poster , rating, year_of_release } = req.body;
 
@@ -63,4 +84,4 @@ const addMovie = async (req,res) =>{
     }
     
 }
-module.exports = {getAllMovies, getMovie , addMovie} 
+module.exports = {getAllMovies, getMovie , addMovie, getTopRated} 
